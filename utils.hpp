@@ -1,6 +1,5 @@
 #ifndef __M_UTILLS_H__
 #define __M_UTILLS_H__
-
 #include <iostream>
 #include <string.h>
 #include <time.h>
@@ -20,7 +19,6 @@
 #include <sys/socket.h>
 #include <sys/stat.h>
 #include <signal.h>
-
 #define LOG(...) do{\
     fprintf(stdout, __VA_ARGS__);\
 }while(0)
