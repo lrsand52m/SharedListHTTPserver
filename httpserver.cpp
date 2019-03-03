@@ -176,6 +176,7 @@ int main(int argc, char* argv[])
     }
 #endif 
     signal(SIGPIPE, SIG_IGN);
+    signal(SIGCHLD,SIG_IGN);
     if (server.Start() == false)
     {
         return -1;
